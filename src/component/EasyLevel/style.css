@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("./../newFronts/bgImg3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+.upperPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  height: 60px;
+}
+
+.btnsDiv {
+  margin: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.timer,
+.countHead,
+.countNum {
+  padding-left: 50px;
+  color: white;
+}
+
+.restartBtn {
+  background-color: rgb(164, 193, 255);
+  padding: 5px 15px;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 13px;
+  height: 40px;
+  opacity: 85%;
+  margin-left: 5px;
+}
+
+.resIcon {
+  width: 20px;
+}
+
+.backBtn {
+  background-color: rgb(218, 185, 255);
+  padding: 5px 15px;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 13px;
+  height: 50px;
+  width: 70px;
+  opacity: 85%;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.backIcon {
+  width: 20px;
+}
+
+.backBtn:hover {
+  background-color: #b9d7e9;
+  box-shadow: 0px 15px 20px rgba(55, 81, 110, 0.993);
+  color: black;
+  transform: translateY(-7px);
+}
+.backBtn:active {
+  transform: translateY(-1px);
+}
+
+/*end of main & upper page style*/
+/*start of level cards style*/
+
+.cardContinerEasy {
+  /*all cards div easy*/
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 120px;
+}
+
+.cardEasy {
+  /*single card div easy*/
+  width: 30%;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+
+.backImgEasy {
+  /*card img class easy*/
+  border: 2px solid white;
+  border-radius: 8px;
+  height: 270px;
+  width: auto;
+  transition: all 0.7s ease-in-out;
+}
+
+.cardEasy:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/*////////////////////////////////////////*/
+
+.cardContinerMed {
+  /*all cards div med*/
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 120px;
+}
+
+.cardMed {
+  /*single card div med*/
+  width: 20%;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+}
+
+.backImgMed {
+  /*card img class med*/
+  border: 2px solid white;
+  border-radius: 8px;
+  height: 170px;
+  width: auto;
+  transition: all 0.7s ease-in-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/*////////////////////////////////////////*/
+
+.cardContinerHard {
+  /*all cards div hard*/
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 45px;
+}
+
+.cardHard {
+  /*single card div hard*/
+  width: 12%;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+}
+
+.backImgHard {
+  /*card img class hard*/
+  border: 2px solid white;
+  border-radius: 8px;
+  height: 160px;
+  width: auto;
+  transition: all 0.7s ease-in-out;
+}
+
+.cardHard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

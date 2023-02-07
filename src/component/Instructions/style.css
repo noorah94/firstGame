@@ -1,0 +1,51 @@
+.instrac {
+  width: 50%;
+  margin-left: 290px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  background-color: rgba(250, 246, 250, 0.3);
+  font-family: "Aldhabi";
+  color: rgb(119, 115, 149);
+  border-radius: 2rem;
+}
+.instractions {
+  font-family: "Aldhabi";
+  align-content: center;
+  font-size: 70px;
+  font-weight: 200;
+}
+
+.mainInIns {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("./../newFronts/bgImg4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+.backIconA {
+  width: 50px;
+  height: 50px;
+}
+
+.backIconA:hover {
+  color: rgb(69, 65, 105);
+  cursor: pointer;
+}
