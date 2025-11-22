@@ -10,7 +10,7 @@ export default function Lose() {
     const b = setTimeout(() => {
       clearTimeout(b);
       navigate("/");
-    }, 3000);
+    }, 5000);
   }, []); //to do the change card place with every refresh of page
   useEffect(() => {
     const a = setInterval(() => {

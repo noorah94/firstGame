@@ -10,7 +10,7 @@ export default function Win() {
     const b = setTimeout(() => {
       clearTimeout(b);
       navigate("/");
-    }, 3000);
+    }, 5000);
   }, []); //to do the change card place with every refresh of page
   useEffect(() => {
     const a = setInterval(() => {
@@ -27,17 +27,17 @@ export default function Win() {
       </div>
       <div className="containerInWin">
         <img
-          src="https://www.icegif.com/wp-content/uploads/winner-icegif-9.gif"
+          src="https://www.icegif.com/wp-content/uploads/2023/07/icegif-137.gif"
           alt="card"
         />
         <img
-          src="https://www.icegif.com/wp-content/uploads/winner-icegif-7.gif"
+          src="https://www.icegif.com/wp-content/uploads/2023/07/icegif-134.gif"
           alt="card"
         />
-        <img
-          src="https://www.icegif.com/wp-content/uploads/winner-icegif-8.gif"
+        {/* <img
+          src=""
           alt="card"
-        />
+        /> */}
       </div>
     </div>
   );
